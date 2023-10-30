@@ -11,7 +11,7 @@ class loginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //jika data local tidak kosong, maka akan ditampilkan di textfield dan bisa langsung login
+    //jika data local tidak  kosong, maka akan ditampilkan di textfield dan bisa langsung login
 
     if (box.read("dataRememberme") != null) {
       loginC.emailC.text = box.read("dataRememberme")["email"];
